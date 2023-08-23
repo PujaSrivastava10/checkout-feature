@@ -1,0 +1,9 @@
+.primaryButton button{
+    border-radius: 4px;
+    background-color: var(--primary-color) !important;
+    color: var(--primary-light-color) !important;
+}
+
+.primaryButton button:hover{
+    border-color: var(--primary-color) !important;
+}

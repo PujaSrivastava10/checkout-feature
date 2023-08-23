@@ -1,0 +1,21 @@
+.buttonContainer{
+    display: block;
+    position: sticky;
+    bottom: 10px;
+    text-align: center;
+}
+
+.buttonContainer button{
+    width: 80%;
+    height: 40px;
+}
+
+.modalButtonContainer{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.modalButtonContainer button{
+    margin-right: 10px;
+}

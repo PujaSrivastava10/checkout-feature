@@ -1,0 +1,50 @@
+.card{
+    width: 250px;
+    height: 350px;
+    cursor: pointer;
+    position: relative;
+}
+
+.imgContainer{
+    height: 200px;
+    padding: 0 24px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.imgContainer img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.rating{
+    position: absolute;
+    background-color: #fff;
+    padding: 5px;
+    bottom: 0px;
+    left: 24px;
+    font-size: 10px;
+}
+
+.title{
+    text-overflow: clip;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.discountPrice{
+    margin-left: 5px;
+}
+
+.button{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.description{
+    padding: 0px 24px;
+}

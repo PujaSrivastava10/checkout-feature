@@ -1,0 +1,44 @@
+.breadcrumb{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.addressCard{
+    box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.05);
+}
+
+.heading{
+    color: var(--primary-color);
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.addressCard input{
+    background-color: var(--secondary-color);
+    height: 40px;
+}
+
+.buttonContainer{
+    float: right;
+}
+
+.buttonContainer button{
+    margin-left: 10px;
+    height: 40px;
+}
+
+.buttonContainer button:first-child{
+    background-color: var(--secondary-color);
+}
+
+@media only screen and (max-width: 400px){
+    .buttonContainer{
+        width: 100%;
+    }
+    .buttonContainer button{
+        width: 100%;
+        margin: 10px 0px;
+    }
+}
+

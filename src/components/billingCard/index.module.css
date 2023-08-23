@@ -1,0 +1,36 @@
+.priceCard{
+    width: 40%;
+    float: right;
+}
+
+.title{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.priceSection{
+    padding: 16px 0px;
+    border-bottom: 1px solid var(--secondary-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.priceSection span:last-child{
+    float: right;
+}
+
+.priceCard button{
+    margin: auto;
+    display: block;
+    height: 40px;
+    padding: 0px 70px;
+}
+
+@media only screen and (max-width: 400px){
+    .priceCard{
+        float: none;
+        width: 100%;
+    }
+}
